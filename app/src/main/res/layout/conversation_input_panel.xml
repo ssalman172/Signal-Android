@@ -40,7 +40,7 @@
 
             <LinearLayout
                 android:id="@+id/compose_bubble"
-                android:layout_width="match_parent"
+                android:layout_width="265dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/compose_background"
                 android:clipChildren="false"
@@ -185,6 +185,14 @@
             </LinearLayout>
 
         </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/clearMessage_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/circle_touch_highlight_background"
+            app:srcCompat="@drawable/ic_deny_28_tinted" />
 
         <org.thoughtcrime.securesms.components.AnimatingToggle
             android:id="@+id/button_toggle"
